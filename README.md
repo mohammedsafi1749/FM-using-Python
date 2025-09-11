@@ -25,6 +25,9 @@ Program
 
 Output Waveform
 
+<img width="1917" height="1199" alt="Screenshot 2025-09-04 094347" src="https://github.com/user-attachments/assets/0cf372eb-89d5-4fd0-9e0c-2e8ebab65e14" />
+
+
 Tabular Column
 
 Calculation
