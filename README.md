@@ -21,7 +21,10 @@ Algorithm
 4.Compute the Integral of the Message Signal: Calculate the integral of the message signal over time.
 5.Generate FM Signal: Apply the FM modulation formula to obtain the modulated signal.
 6.Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
+
+
 Program
+
 import numpy as np
 import matplotlib.pyplot as plt
 
