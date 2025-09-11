@@ -1,4 +1,4 @@
-EXPT.NO.8 Frequency Modulation and Demodulation using NumPy and Matplotlib
+EXPT.NO.5 Frequency Modulation and Demodulation using NumPy and Matplotlib
 
 Aim:
 
