@@ -22,7 +22,31 @@ Algorithm
 5.Generate FM Signal: Apply the FM modulation formula to obtain the modulated signal.
 6.Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 Program
+import numpy as np
+import matplotlib.pyplot as plt
 
+Am = 20.6
+fm = 424
+Ac = 41.2
+fc = 4240
+fs = 42400
+
+t = np.arange(0, 2/fm, 1/fs)
+
+m = Am * np.cos(2 * np.pi * fm * t)
+c = Ac * np.cos(2 * np.pi * fc * t)
+
+b = 5.4
+s = Ac * np.cos((2 * np.pi * fc * t) + b * np.sin(2 * np.pi * fm * t))
+
+plt.subplot(3,1,1)
+plt.plot(t, m)
+
+plt.subplot(3,1,2)
+plt.plot(t, c)
+
+plt.subplot(3,1,3)
+plt.plot(t, s)
 Output Waveform
 
 <img width="1917" height="1199" alt="Screenshot 2025-09-04 094347" src="https://github.com/user-attachments/assets/0cf372eb-89d5-4fd0-9e0c-2e8ebab65e14" />
