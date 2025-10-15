@@ -77,6 +77,9 @@ Output Waveform
 
 Tabular Column
 
+![WhatsApp Image 2025-10-15 at 13 10 27_fc19acbf](https://github.com/user-attachments/assets/5167a905-a101-433c-a2a8-b3c5739992d3)
+
+
 Calculation
 
 Result
