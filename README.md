@@ -1,4 +1,4 @@
-## FM-using-Python
+## EXP NO: 7 FM-using-Python
 
 ## Aim
 To implement and analyze frequency modulation (FM) using Python's NumPy and Matplotlib libraries.
